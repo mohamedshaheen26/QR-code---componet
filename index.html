@@ -26,9 +26,15 @@
         background: hsl(212, 46%, 89%);
         font-family: "Outfit", sans-serif;
       }
+      main {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
       .card {
-        margin: 20px auto;
-        width: 300px;
+        width:300px;
         padding: 15px;
         border-radius: 15px;
         background: hsl(0, 0%, 100%);
@@ -70,14 +76,16 @@
     </style>
   </head>
   <body>
-    <main class="card">
-      <img src="images/image-qr-code.png" alt="QR-code" />
-      <div class="text">
-        <h1>Improve your front-end skills by building projects</h1>
-        <p>
-          Scan the QR code to visit Frontend Mentor and take your coding skills
-          to the next level
-        </p>
+    <main>
+      <div class="card">
+        <img src="/images/image-qr-code.png" alt="QR-code" />
+        <div class="text">
+          <h1>Improve your front-end skills by building projects</h1>
+          <p>
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
       </div>
     </main>
     <footer class="attribution">
@@ -85,7 +93,7 @@
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by
-      <a href="https://www.facebook.com/profile.php?id=100070353519910" target="_blank"
+      <a href="https://www.facebook.com/profile.php?id=100070353519910"
         >Mohamed Shaheen</a
       >.
     </footer>
